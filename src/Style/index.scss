@@ -1,0 +1,166 @@
+.header {
+  height: 81px;
+  line-height: 81px;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  padding-left: 10px;
+
+  a {
+    color: #000;
+    display: inline-block;
+    width: 104px;
+    margin: 0 10px;
+    line-height: 79px;
+    height: 79px;
+    text-align: center;
+    vertical-align: top;
+
+    border-top: solid 2px transparent;
+  }
+
+  a.slt {
+    font-size: 36px;
+    color: #f01c2b;
+    border-top: solid 2px #f01c2b;
+  }
+}
+
+.bodyer {
+  margin: 0 20px 30px 20px;
+
+  .ph_body_item {
+    color: #3f3f43;
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .ph_body_item_header {
+    height: 72px;
+    line-height: 72px;
+
+    .ph_body_item_header_face {
+      display: inline-block;
+    }
+    .ph_body_item_header_name {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 15px;
+    }
+    .ph_body_item_header_time {
+      display: inline-block;
+      float: right;
+      color: #959292;
+    }
+  }
+
+  .ph_body_item_title{
+    margin-top: 10px;
+    line-height: 40px;
+  }
+  .ph_body_item_img{
+    margin-top: 20px;
+  }
+  .ph_body_item_play{
+    margin-top: 30px;
+    height: 70px;
+    background: rgba(245,245,245,1);
+
+    div:nth-of-type(2){
+      display: inline-block;
+      width: 536px;
+      padding-left: 10px;
+      font-size: 20px;
+      vertical-align: top;
+    }
+    span{
+      display: inline-block;
+      width: 100%;
+      height: 35px;
+      line-height: 35px;
+    }
+    span:nth-of-type(2){
+      color: #b5b3b3;
+    }
+
+    .ph_body_item_play_div{
+      position: relative;
+      display: inline-block;
+    }
+    .ph_body_item_play_div img{
+    }
+    .ph_body_item_play_div span{
+      display: inline-block;
+      background: url("img/play_icon.png") no-repeat;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: 50px;
+      top: 22px;
+    }
+  }
+
+  .ph_body_item_ping{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .ph_body_item_ping t{
+    color: #2e85e0;
+  }
+  .ph_body_item_footer{
+    margin-top: 30px;
+    text-align: right;
+  }
+  .ph_body_item_footer a{
+    display: inline-block;
+  }
+  .ph_body_item_footer_zan{
+    background: url("img/btn_icons.png") no-repeat;
+    width: 60px;
+    height: 40px;
+  }
+  .ph_body_item_footer_ping{
+    background: url("img/btn_icons.png") no-repeat -60px 0;
+    width: 60px;
+    height: 40px;
+  }
+  .body_item_line{
+    margin-top: 30px;
+    background: rgba(245,245,245,1);
+    height: 1px;
+    width: 720px;
+    position: relative;
+    left: -20px;
+  }
+}
+
+.touch {
+  transition: background .2s ease-in-out;
+}
+.touch.feedback {
+  background: #d9d7d7;
+  opacity: 0.6;
+}
+
+.ph_body_face_0 {
+  background: url("img/face_small_0.png") no-repeat;
+  width: 67px;
+  height: 72px;
+}
+
+.ph_body_face_1 {
+  background: url("img/face_small_1.png") no-repeat;
+  width: 67px;
+  height: 72px;
+}
+
+.ph_body_face_2 {
+  background: url("img/face_small_2.png") no-repeat;
+  width: 67px;
+  height: 68px;
+}
+
+.ph_body_face_3 {
+  background: url("img/face_small_3.png") no-repeat;
+  width: 67px;
+  height: 72px;
+}

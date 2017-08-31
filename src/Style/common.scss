@@ -1,0 +1,20 @@
+body, div, span, header, footer, nav, section, aside, article, ul, li, a, p, h1, h2, h3, h4, h5, i, b, textarea, button, input, select {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  &:focus {
+    outline: none;
+  }
+  cursor: pointer;
+}
+
+body{
+  background-color: #ffffff;
+  width: 720px;
+  height: 100%;
+}
